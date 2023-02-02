@@ -3,7 +3,7 @@ def de_decimal_a_binario(decimal):
         return "0"
     # Aquí almacenamos el resultado
     binario = ""
-    # Mientras se pueda dividir...
+    # Mientras se pueda dividir
     while decimal > 0:
         # Saber si es 1 o 0
         resto = int(decimal % 2)
